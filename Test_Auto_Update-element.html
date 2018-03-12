@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="Test_Auto_Update-element">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `Test_Auto_Update-element`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class Test_Auto_UpdateElement extends Polymer.Element {
+      static get is() { return 'Test_Auto_Update-element'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'Test_Auto_Update-element'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(Test_Auto_UpdateElement.is, Test_Auto_UpdateElement);
+  </script>
+</dom-module>
