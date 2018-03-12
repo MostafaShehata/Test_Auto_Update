@@ -1,6 +1,7 @@
 {
   "name": "Test_Auto_Update-element",
   "main": "Test_Auto_Update-element.html",
+  "description": "this is a test project"
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0"
   },
