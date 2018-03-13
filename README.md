@@ -1,4 +1,4 @@
-# \<Test_Auto_Update-element\> Version 5.0.0
+# \<Test_Auto_Update-element\> Version 6.0.0
 
 
 
